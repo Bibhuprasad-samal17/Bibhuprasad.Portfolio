@@ -1,157 +1,243 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibhuprasad Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="particles" id="particles"></div>
-
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">My Portfolio</div>
-                <div style="display: flex; align-items: center;">
-                    <ul class="nav-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <button class="theme-toggle" id="theme-toggle">
-                        <i class="fas fa-moon"></i>
-                    </button>
-                </div>
-            </nav>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">My Portfolio<span>.</span></div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#languages">Languages</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero">
-                <div class="hero-content fade-in">
-                    <h1>Hello, I'm <span class="highlight">Bibhuprasad</span></h1>
-                    <div class="typed-text">
-                        <p>I'm a <span id="profession">Professional Developer</span></p>
-                    </div>
-                    <p>
-                        Welcome to my portfolio website. I'm passionate about creating amazing projects and
-                        constantly improving my skills. Feel free to connect with me through my social media profiles.
-                    </p>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/bibhuprasad-samal-5ab80232a/" target="_blank"
-                            class="fade-in delay-1" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://x.com/bibhuprasad_xv_" target="_blank" class="fade-in delay-2"
-                            title="X (Twitter)">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://www.instagram.com/_bibhuprasad_samal_?igsh=MXgxcnhxMm85eDdjbQ=="
-                            target="_blank" class="fade-in delay-3" title="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="mrrandom1711@gmail.com" class="fade-in delay-4" title="Email">
-                            <i class="far fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-img fade-in delay-2">
-                    <img src="bibhuprasas dp.jpg" alt="I am Bibhuprasad">
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Bibhuprasad Samal</span></h1>
+      <h2>Web Developer & Programmer</h2>
+      <p>I create elegant, efficient solutions for web and software applications. Passionate about turning ideas into reality through clean code and innovative design.</p>
+      
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/bibhuprasad-samal-5ab80232a" target="_blank" class="social-btn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://x.com/bibhuprasad_xv_" target="_blank" class="social-btn">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/_bibhuprasad_samal_?igsh=MXgxcnhxMm85eDdjbQ==" target="_blank" class="social-btn">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:bibhuprasadsamal1711@gmail.com" class="social-btn">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="bibhuprasas dp.jpg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+      <p class="fade-in">I am a passionate web developer and programmer with expertise in creating responsive, user-friendly websites and applications. With a strong foundation in both frontend and backend technologies, I strive to build solutions that are not only visually appealing but also highly functional and efficient.</p>
+      <p class="fade-in">My journey in the world of programming began with a curiosity about how things work on the web, which evolved into a full-fledged career in web development. I continuously expand my skill set to stay current with the latest technologies and industry best practices.</p>
+    </div>
+  </section>
+
+  <!-- Programming Languages Section -->
+  <section id="languages" class="programming-languages">
+    <div class="container">
+      <h2 class="section-title fade-in">Programming Languages</h2>
+      <div class="languages-container">
+        <div class="language-card">
+          <div class="language-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3>HTML</h3>
+          <p>Semantic markup, Accessibility, SEO optimization</p>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="95" style="--progress-width: 95%"></div>
+          </div>
+          <span>95%</span>
         </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>My Skills</h2>
-            </div>
-            <div class="skills-container">
-                <div class="skill-box fade-in delay-1">
-                    <i class="fas fa-code"></i>
-                    <h3>Web Development</h3>
-                    <p>HTML, CSS, JavaScript</p>
-                    <div class="progress-container">
-                        <div class="progress-bar">
-                            <div class="progress" data-width="90%"></div>
-                        </div>
-                        <div class="progress-text">90%</div>
-                    </div>
-                </div>
-                <div class="skill-box fade-in delay-2">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Mobile Development</h3>
-                    <p>React Native, Flutter</p>
-                    <div class="progress-container">
-                        <div class="progress-bar">
-                            <div class="progress" data-width="0%"></div>
-                        </div>
-                        <div class="progress-text">0%</div>
-                    </div>
-                </div>
-                <div class="skill-box fade-in delay-3">
-                    <i class="fas fa-database"></i>
-                    <h3>Back-End</h3>
-                    <p>Node.js, Python, SQL, MongoDB</p>
-                    <div class="progress-container">
-                        <div class="progress-bar">
-                            <div class="progress" data-width="50%"></div>
-                        </div>
-                        <div class="progress-text">50%</div>
-                    </div>
-                </div>
-                <div class="skill-box fade-in delay-4">
-                    <i class="fas fa-palette"></i>
-                    <h3>UI/UX Design</h3>
-                    <p>Figma</p>
-                    <div class="progress-container">
-                        <div class="progress-bar">
-                            <div class="progress" data-width="85%"></div>
-                        </div>
-                        <div class="progress-text">85%</div>
-                    </div>
-                </div>
-                <div class="skill-box fade-in delay-1">
-                    <i class="fas fa-server"></i>
-                    <h3>DevOps</h3>
-                    <p>AWS, Docker, CI/CD</p>
-                    <div class="progress-container">
-                        <div class="progress-bar">
-                            <div class="progress" data-width="0%"></div>
-                        </div>
-                        <div class="progress-text">0%</div>
-                    </div>
-                </div>
-                <div class="skill-box fade-in delay-2">
-                    <i class="fas fa-brain"></i>
-                    <h3>Machine Learning</h3>
-                    <p>TensorFlow, PyTorch</p>
-                    <div class="progress-container">
-                        <div class="progress-bar">
-                            <div class="progress" data-width="0%"></div>
-                        </div>
-                        <div class="progress-text">0%</div>
-                    </div>
-                </div>
-            </div>
+        
+        <div class="language-card">
+          <div class="language-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3>CSS</h3>
+          <p>Responsive design, Animations, Preprocessors</p>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="90" style="--progress-width: 90%"></div>
+          </div>
+          <span>90%</span>
         </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container">
-            <p>&copy; 2025 Bibhuprasad Samal. All Rights Reserved.</p>
+        
+        <div class="language-card">
+          <div class="language-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, ES6+, Async programming</p>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="85" style="--progress-width: 85%"></div>
+          </div>
+          <span>85%</span>
         </div>
-    </footer>
-    <script src="script.js"></script>
+        
+        <div class="language-card">
+          <div class="language-icon">
+            <i class="fab fa-java"></i>
+          </div>
+          <h3>Java</h3>
+          <p>OOP, Spring Framework, Android development</p>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="80" style="--progress-width: 80%"></div>
+          </div>
+          <span>80%</span>
+        </div>
+        
+        <div class="language-card">
+          <div class="language-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <h3>Python</h3>
+          <p>Data analysis, Automation, Web frameworks</p>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="75" style="--progress-width: 75%"></div>
+          </div>
+          <span>75%</span>
+        </div>
+        
+        <div class="language-card">
+          <div class="language-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>C</h3>
+          <p>System programming, Memory management, Algorithms</p>
+          <div class="progress-bar">
+            <div class="progress-fill" data-progress="70" style="--progress-width: 70%"></div>
+          </div>
+          <span>70%</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title fade-in">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fas fa-globe fa-3x language-icon"></i>
+          <h3>Web Development</h3>
+          <p>Creating responsive, user-friendly websites with modern frameworks and technologies. Expert in frontend and backend integration.</p>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fas fa-database fa-3x language-icon"></i>
+          <h3>Data Structures</h3>
+          <p>Proficient in arrays, linked lists, trees, graphs, hash tables, and other advanced data structures for efficient problem-solving.</p>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fas fa-sitemap fa-3x language-icon"></i>
+          <h3>Algorithms</h3>
+          <p>Strong understanding of sorting, searching, dynamic programming, and optimization algorithms for complex computational problems.</p>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fas fa-mobile-alt fa-3x language-icon"></i>
+          <h3>Responsive Design</h3>
+          <p>Creating websites that work seamlessly across all devices and screen sizes with mobile-first approach.</p>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fas fa-server fa-3x language-icon"></i>
+          <h3>Backend Development</h3>
+          <p>Building robust server-side applications with RESTful APIs, database integration, and efficient data handling.</p>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fas fa-project-diagram fa-3x language-icon"></i>
+          <h3>System Design</h3>
+          <p>Designing scalable, maintainable software architectures with focus on performance and usability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Contact Me</h2>
+      <div class="contact-info">
+        <div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>bibhuprasadsamal1711@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>+91 93373 44133</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Odisha,India</p>
+          </div>
+        </div>
+        <div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin-in"></i>
+            <p>www.linkedin.com/in/bibhuprasad-samal-5ab80232a</p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-twitter"></i>
+            <p>@bibhuprasad_xv_</p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <p>@_bibhuprasad_samal_</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Bibhuprasad. All Rights Reserved.</p>
+    </div>
+  </footer>
+<script src="script.js"></script>
+ 
 </body>
-
 </html>
