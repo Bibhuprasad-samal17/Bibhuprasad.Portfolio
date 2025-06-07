@@ -1,4 +1,4 @@
-/* Enhanced Dark Theme with Purple-Blue Gradient */
+
     :root {
       --primary-color: #0a0a0a;
       --secondary-color: #1a1a1a;
@@ -27,7 +27,7 @@
       overflow-x: hidden;
     }
 
-    /* Animated Background */
+
     #particles-js {
       position: fixed;
       top: 0;
@@ -45,7 +45,7 @@
       z-index: 1;
     }
 
-    /* Header */
+
     header {
       padding: 2rem 0;
       backdrop-filter: blur(10px);
@@ -115,7 +115,7 @@
       color: var(--accent-color);
     }
 
-    /* Hero Section */
+ 
     .hero {
       display: flex;
       justify-content: space-between;
@@ -223,7 +223,7 @@
       }
     }
 
-    /* Social Media */
+    
     .social-icons {
       display: flex;
       gap: 1rem;
@@ -268,7 +268,7 @@
       box-shadow: 0 10px 20px rgba(139, 92, 246, 0.4);
     }
 
-    /* About Section */
+    
     .about {
       padding: 8rem 0;
       background: var(--secondary-color);
@@ -315,7 +315,7 @@
       line-height: 1.8;
     }
 
-    /* Programming Languages Section */
+   
     .programming-languages {
       padding: 8rem 0;
       background: var(--primary-color);
@@ -400,7 +400,7 @@
       to { width: var(--progress-width); }
     }
 
-    /* Skills Section */
+   
     .skills {
       padding: 8rem 0;
       background: var(--secondary-color);
@@ -454,7 +454,7 @@
       line-height: 1.6;
     }
 
-    /* Contact Section */
+
     .contact {
       padding: 8rem 0;
       background: var(--primary-color);
@@ -513,7 +513,6 @@
       font-size: 1rem;
     }
 
-    /* Footer */
     footer {
       padding: 3rem 0;
       text-align: center;
@@ -529,7 +528,7 @@
       background-clip: text;
     }
 
-    /* Responsive Design */
+
     @media (max-width: 768px) {
       .hero {
         flex-direction: column-reverse;
@@ -560,7 +559,7 @@
       }
     }
 
-    /* Scroll animations */
+  
     .fade-in {
       opacity: 0;
       transform: translateY(30px);
@@ -572,7 +571,7 @@
       transform: translateY(0);
     }
 
-    /* Custom scrollbar */
+  
     ::-webkit-scrollbar {
       width: 8px;
     }
